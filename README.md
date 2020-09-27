@@ -19,4 +19,4 @@ Once you have done that you can finally use all the ids and run the code and dow
 # Creating sheets for photoshop
 Now to create the final sheets for photoshop. You will get the data from your main database sheets using google sheets api like previously done and then you will write the required data in the sheets which you will be using.
 # Making qr codes
-Again you will be reading the sheets data using sheets api and you can then use the qr
+Again you will be reading the sheets data using sheets api and you can then use the isa_qr.py code to create qr codes but you will have to download the additional modules.
