@@ -11,4 +11,12 @@ To do this step run your quickstart.py (or drive.py from my repository) and then
 # Google Sheets API 
 As everything is automated we will be creating a sheet which will be later uploaded in photoshop so that we can generate all ID cards at once.
 So first follow the same steps like the drive api and enable your sheets api by searching google sheets in library and enabling it.
-
+Once you do this you get a credentials.json file for this api too and you have to share the sheets with the email id from the json file and that will setup your google sheets api
+# Reading Images from google drive 
+This step is to be done only if you have succesfully connected your google drive api.
+Once you have done that run the drive_photos.py file from repository but some initial changes have to be done as here Iam using ID of each image in the drive to download the image the ID of each image is obtained from the google sheets response of the google form where members will have filled their credentials and you have to edit this with your own google sheet which contains id this goes without saying that you will have to share that sheet with the email id provided in json credentials file for the sheets api.
+Once you have done that you can finally use all the ids and run the code and download all the images which will be locally saved.
+# Creating sheets for photoshop
+Now to create the final sheets for photoshop. You will get the data from your main database sheets using google sheets api like previously done and then you will write the required data in the sheets which you will be using.
+# Making qr codes
+Again you will be reading the sheets data using sheets api and you can then use the qr
